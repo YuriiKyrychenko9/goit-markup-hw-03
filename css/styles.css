@@ -32,11 +32,14 @@ img {
   margin: 0 auto;
   max-width: 1158px;
   padding: 0 15px;
-  display: flex;
 }
 
 .page-header {
   border: 1px solid #e7e9fc;
+}
+
+.page-header .container {
+  display: flex;
 }
 
 /* Logo */
@@ -127,11 +130,6 @@ img {
   padding: 188px 0;
 }
 
-.hero .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .hero-title {
   display: flex;
   margin-top: 0;
@@ -169,6 +167,7 @@ img {
 
 .button {
   display: block;
+  margin: 0 auto;
   color: var(--sub-text-color);
   background-color: var(--primary-brand-color);
   font-size: 16px;
@@ -238,7 +237,8 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.advantages-item .section-text {
+.advantages-item .section-text,
+.advantages-item .list-title {
   text-align: left;
 }
 
@@ -303,14 +303,6 @@ img {
   color: var(--sub-background-color);
   padding: 100px 0;
 }
-.footer .container {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer a {
-  display: inline-block;
-}
 
 .logo-studio-footer {
   color: var(--sub-background-color);
@@ -320,7 +312,6 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
 }
 
 .text-footer {
